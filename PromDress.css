@@ -1,0 +1,33 @@
+/*
+* Ashley DeFrehn
+* 4 March 2019
+* Sample File to try the different selectors
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+body{
+    width: 80%;
+    margin: auto;
+background-color: darksalmon;
+    font-family: sans-serif;
+}
+h1{
+    background-color: darkseagreen; /* color for background */
+    color: floralwhite; /* color of text */
+}
+p { /* type of sector for ALL paragraphs */
+    color: darkslategrey;
+}
+#redtext { /* use an id to change text */
+     color: red;
+}
+.greentext { /* use an id to change text */
+    color: green;
+}
